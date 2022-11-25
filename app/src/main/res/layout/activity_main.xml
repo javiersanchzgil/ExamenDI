@@ -14,7 +14,7 @@
         tools:ignore="MissingConstraints">
 
         <TableRow
-            android:layout_width="314dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginHorizontal="15dp"
             android:layout_marginVertical="15dp"
@@ -22,7 +22,7 @@
 
             <TextView
                 android:id="@+id/textView3"
-                android:layout_width="match_parent"
+                android:layout_width="317dp"
                 android:layout_height="wrap_content"
                 android:text="@string/producto"
                 android:textColor="@color/white"
@@ -119,7 +119,7 @@
 
             <TextView
                 android:id="@+id/textView13"
-                android:layout_width="342dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/detergente_limpiadin_x_1"
                 android:textColor="@android:color/system_accent2_600"
@@ -138,22 +138,129 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp">
 
-            <View
-                android:id="@+id/view"
-                android:layout_width="372dp"
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
                 android:layout_height="2dp"
-                android:layout_marginHorizontal="15dp"
-                android:layout_marginTop="1dp"
+                android:layout_marginHorizontal="0dp"
+                android:layout_marginStart="15dp"
                 android:background="@android:color/system_accent2_600"
                 tools:ignore="NewApi" />
 
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@android:color/system_accent2_600"
+                tools:ignore="NewApi" />
         </TableRow>
-
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="44dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="0dp">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="298dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:text="@string/subtotal2"
+                android:textAlignment="textEnd"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="16sp"
+                tools:ignore="NewApi,TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:text="@string/_43_4"
+                android:textColor="@color/material_dynamic_neutral_variant40"
+                android:textSize="16sp" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="0dp">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="298dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:text="@string/costo_env_o"
+                android:textAlignment="textEnd"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="16sp"
+                tools:ignore="NewApi,TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:text="@string/_101"
+                android:textColor="@color/material_dynamic_neutral_variant40"
+                android:textSize="16sp" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="0dp">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="298dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:text="@string/cup_n"
+                android:textAlignment="textEnd"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="16sp"
+                tools:ignore="NewApi,TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:text="@string/_5"
+                android:textColor="@color/material_dynamic_neutral_variant40"
+                android:textSize="16sp" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="0dp">
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="298dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:text="@string/total"
+                android:textAlignment="textEnd"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="16sp"
+                tools:ignore="NewApi,TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:text="@string/_48_4"
+                android:textColor="@color/material_dynamic_neutral_variant40"
+                android:textSize="16sp" />
+
+        </TableRow>
 
     </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

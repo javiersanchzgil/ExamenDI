@@ -10,4 +10,12 @@
     <string name="_18">$18</string>
     <string name="detergente_limpiadin_x_1">Detergente Limpiadin x 1</string>
     <string name="_13_04">$13,04</string>
+    <string name="subtotal2">Subtotal</string>
+    <string name="_43_4">$43,4</string>
+    <string name="costo_env_o">Costo Envío</string>
+    <string name="_101">$10</string>
+    <string name="cup_n">Cupón</string>
+    <string name="total">Total</string>
+    <string name="_48_4">$48,4</string>
+    <string name="_5">$-5</string>
 </resources>
