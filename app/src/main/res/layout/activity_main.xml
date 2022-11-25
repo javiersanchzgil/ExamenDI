@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <TableRow
+            android:layout_width="314dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="15dp"
+            android:background="@android:color/holo_green_dark">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/producto"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:text="@string/subtotal"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="0dp">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jab_n_de_manos_x_1"
+                android:textColor="@android:color/system_accent2_600"
+                android:textSize="16sp"
+                tools:ignore="NewApi" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:text="@string/_2"
+                android:textColor="@color/material_dynamic_neutral_variant40"
+                android:textSize="16sp" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="0dp">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shampoo_monster_x_1"
+                android:textColor="@android:color/system_accent2_600"
+                android:textSize="16sp"
+                tools:ignore="NewApi" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:text="@string/_10"
+                android:textColor="@color/material_dynamic_neutral_variant40"
+                android:textSize="16sp" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="0dp">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pastas_durias_x_2"
+                android:textColor="@android:color/system_accent2_600"
+                android:textSize="16sp"
+                tools:ignore="NewApi" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:text="@string/_18"
+                android:textColor="@color/material_dynamic_neutral_variant40"
+                android:textSize="16sp" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="0dp">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="342dp"
+                android:layout_height="wrap_content"
+                android:text="@string/detergente_limpiadin_x_1"
+                android:textColor="@android:color/system_accent2_600"
+                android:textSize="16sp"
+                tools:ignore="NewApi" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:text="@string/_13_04"
+                android:textColor="@color/material_dynamic_neutral_variant40"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="372dp"
+                android:layout_height="2dp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="1dp"
+                android:background="@android:color/system_accent2_600"
+                tools:ignore="NewApi" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

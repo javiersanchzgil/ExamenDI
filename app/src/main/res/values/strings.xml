@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Examen1ªDI</string>
+    <string name="pastas_durias_x_2">Pastas Durias x 2</string>
+    <string name="_10">$10</string>
+    <string name="shampoo_monster_x_1">Shampoo Monster x 1</string>
+    <string name="jab_n_de_manos_x_1">Jabón de manos x 1</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="_2">$2</string>
+    <string name="producto">Producto</string>
+    <string name="_18">$18</string>
+    <string name="detergente_limpiadin_x_1">Detergente Limpiadin x 1</string>
+    <string name="_13_04">$13,04</string>
+</resources>
